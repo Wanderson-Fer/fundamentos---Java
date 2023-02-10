@@ -8,14 +8,14 @@ public class Variables {
 
         // The 'String' type asign a text to the variable
         String name = "Wanderson";
-        System.out.println(name);
+        System.out.println(name); // Wanderson
 
         // The 'int' type asign a number (Integer) to the variable
         int idade = 20;
-        System.out.println(idade);
+        System.out.println(idade); // 20
 
         final int favoriteNumber = 1;
-        System.out.println(favoriteNumber);
+        System.out.println(favoriteNumber); // 1
         /* can't overwrite 'final' variables
          * favoriteNumber = 13;
          * The final local variable favoriteNumber cannot be assigned. 
@@ -25,7 +25,7 @@ public class Variables {
         // The 'float' or 'double' type asign a rational number
         // double(8-64 bits) use more memory than float type(4-32 bits)
         float myHeight = 1.73f;
-        System.out.println("My height is " + myHeight);
+        System.out.println("My height is " + myHeight); // My height is 1.73
 
         /* General Java identifiers rules
          * Names can contain letters, digits, underscores, and dollar signs
